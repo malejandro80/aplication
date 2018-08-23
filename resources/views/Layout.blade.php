@@ -28,13 +28,13 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
               <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{route('home')}}">Inicio</a>
+              <a class="nav-link" href="{{route('inicio')}}">Inicio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="{{route('especialidades')}}">Especialidades</a>
@@ -42,16 +42,21 @@
             <li class="nav-item">
               <a class="nav-link" href="{{route('contacto')}}">Contacto</a>
             </li>
-            @guest
-              <li class="nav-item">
-                  <a class="nav-link" href="{{ route('login') }}">iniciar sesion</a>
+          </ul>
+          <div class="ml-auto">
+            <ul class="navbar-nav">
+               @guest
+              <li class="nav-item ">
+                  <a class="nav-link in-button" href="{{ route('login') }}">iniciar sesion</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="{{ route('register') }}">Registro</a>
+                  <a class="nav-link in-button" href="{{ route('register') }}">Registro</a>
               </li>
             @else
           @endguest
-          </ul>
+            </ul>
+
+          </div>
         </div>
       </nav>
 

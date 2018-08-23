@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 $lightBlue: #B1CCE1;
+$button-color:#8599A9;
 
 body{
 	font-family: 'Open Sans', sans-serif;
@@ -35,6 +36,12 @@ footer div ul li a{
 footer div ul li a:hover{
 text-decoration-line: none;
     color: black;
+}
+.in-button{
+	background:$button-color;
+	border-radius: 4px;
+	margin-left:4px;
+	margin-right:4px;
 }
 
 
