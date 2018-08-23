@@ -14,3 +14,7 @@
 Route::get('/',['as' => 'home','uses' => 'PagesController@home']);
 Route::get('contacto',['as' => 'contacto','uses' => 'PagesController@contact']);
 Route::get('especialidades',['as' => 'especialidades','uses' => 'PagesController@specialties']);
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

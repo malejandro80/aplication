@@ -4,11 +4,11 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <!-- CSRF Token -->
+        <meta name="csrf-token" content="{{ csrf_token() }}">
         <title>clinina de ejemplo</title>
-
+        {{-- css --}}
         <link rel="stylesheet" href="/css/app.css">
-        <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/fontawesome.css">
 
 
     </head>
@@ -42,6 +42,15 @@
             <li class="nav-item">
               <a class="nav-link" href="{{route('contacto')}}">Contacto</a>
             </li>
+            @guest
+              <li class="nav-item">
+                  <a class="nav-link" href="{{ route('login') }}">iniciar sesion</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="{{ route('register') }}">Registro</a>
+              </li>
+            @else
+          @endguest
           </ul>
         </div>
       </nav>
