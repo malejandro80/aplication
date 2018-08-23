@@ -48,6 +48,25 @@
 
       @yield('content')
 
+      <footer class="container-fluid py-5">
+      <div class="row">
+        <div class="col-12 col-md ml-5">
+          <p class="d-block mb-3 {{-- text-muted --}}">Made with <i class="fas fa-heart"></i> & <i class="fas fa-coffee"></i>  by Desarrolladores Web <i class="fab fa-whatsapp"></i></p>
+          <small class="d-block mb-3 {{-- text-muted --}}">&copy; 2017-2018</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Siguenos en nuestras redes sociales</h5>
+          <ul class="list-unstyled" >
+            <li class="w-decoration"><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+            <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+
+          </ul>
+        </div>
+
+      </div>
+    </footer>
+
       <script src="/js/app.js"></script>
     </body>
 </html>
