@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('Layout');
-});
+Route::get('/',['as' => 'home','uses' => 'PagesController@home']);
+Route::get('contacto',['as' => 'contacto','uses' => 'PagesController@contact']);
+Route::get('especialidades',['as' => 'especialidades','uses' => 'PagesController@specialties']);

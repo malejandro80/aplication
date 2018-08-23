@@ -34,13 +34,13 @@
               <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Inicio</a>
+              <a class="nav-link" href="/">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Especialidades</a>
+              <a class="nav-link" href="especialidades">Especialidades</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link" href="contacto">Contacto</a>
             </li>
           </ul>
         </div>
