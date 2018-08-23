@@ -1,5 +1,5 @@
 @extends('Layout')
 
 @section('content')
-	<h1>contacto</h1>
+	<h1 class="text-center mt-5 mb-5">contacto</h1>
 @stop

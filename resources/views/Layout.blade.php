@@ -34,13 +34,13 @@
               <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/">Inicio</a>
+              <a class="nav-link" href="{{route('home')}}">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="especialidades">Especialidades</a>
+              <a class="nav-link" href="{{route('especialidades')}}">Especialidades</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contacto">Contacto</a>
+              <a class="nav-link" href="{{route('contacto')}}">Contacto</a>
             </li>
           </ul>
         </div>
@@ -51,7 +51,7 @@
       <footer class="container-fluid py-5">
       <div class="row">
         <div class="col-12 col-md ml-5">
-          <p class="d-block mb-3 {{-- text-muted --}}">Made with <i class="fas fa-heart"></i> & <i class="fas fa-coffee"></i>  by Desarrolladores Web <i class="fab fa-whatsapp"></i></p>
+          <p class="d-block mb-3 {{-- text-muted --}}">Hecho con <i class="fas fa-heart"></i> & <i class="fas fa-coffee"></i>  por Desarrolladores Web <i class="fab fa-whatsapp"></i></p>
           <small class="d-block mb-3 {{-- text-muted --}}">&copy; 2017-2018</small>
         </div>
         <div class="col-6 col-md">
