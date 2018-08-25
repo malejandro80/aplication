@@ -17,4 +17,3 @@ Route::get('especialidades',['as' => 'especialidades','uses' => 'PagesController
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
