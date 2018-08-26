@@ -1,47 +1,50 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-$lightBlue: #B1CCE1;
-$button-color:#8599A9;
+$lightBlue: #0789c4;
+$button-color:#03D0DB;
+$color-letter-nav:#f8f9fa;
 
 body{
 	font-family: 'Open Sans', sans-serif;
 }
-#af-nav{
-    display: flex;
-    justify-content: center;
+.jumbotron{
+	background:white;
+	margin-bottom:0px;
 }
-#af-nav ul{
-	margin-top: 1rem;
-	margin-bottom: 0rem;
-}
-#af-nav ul li{
-	display: inline;
-	text-decoration:none;
-	margin-right:1rem;
-	font-size: 1.5rem;
+
+div .container>img{
+	width:300px;
+	height: 90px;
+	margin: auto;
 }
 
 nav{
 	background:$lightBlue;
 	 font-size:1rem;
 }
+.nav-link {
+    color: rgb(215, 218, 220);
+}
 footer{
 	background:$lightBlue;
-	color: black;
+	color: $color-letter-nav;
 }
 footer div ul li a{
-	color:black;
+	color:$color-letter-nav;
 	text-decoration:none;
 }
 footer div ul li a:hover{
 text-decoration-line: none;
-    color: black;
+    color: $color-letter-nav;
 }
 .in-button{
-	background:$button-color;
-	border-radius: 4px;
 	margin-left:4px;
 	margin-right:4px;
+	color: $color-letter-nav !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: $color-letter-nav
 }
 
 

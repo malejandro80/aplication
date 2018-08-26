@@ -13,16 +13,12 @@
 
     </head>
     <body>
-      <div id=af-nav>
-        <ul>
-          <li><i class="fab fa-facebook"></i></li>
-          <li><i class="fab fa-instagram"></i></li>
-          <li><i class="fab fa-twitter-square"></i></li>
-        </ul>
+      <div class="jumbotron">
+        <div class="container d-flex">
+          <img src="{{ asset('img/logos/LOGO_1.png') }}" alt="">
+        </div>
       </div>
-      <hr>
       <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="/">LOGO</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -37,7 +33,10 @@
               <a class="nav-link" href="{{route('inicio')}}">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{route('especialidades')}}">Especialidades</a>
+              <a class="nav-link" href="{{route('especialidades')}}">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{route('contacto')}}">Directorio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="{{route('contacto')}}">Contacto</a>
