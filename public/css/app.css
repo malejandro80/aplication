@@ -15400,3 +15400,41 @@ footer div ul li a:hover {
   margin-bottom: 8rem;
 }
 
+.backg {
+  background: url("/img/images/fondo2.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  display: table;
+  width: 100%;
+}
+
+.mx-auto > h1 {
+  padding-bottom: 80px;
+}
+
+.bloque {
+  background: blue;
+  height: 100px;
+  width: 100px;
+  margin: auto;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+.container-fluid > h2 {
+  padding: 80px;
+}
+
+.centro {
+  background: rgba(172, 169, 160, 0.6);
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+}
+
