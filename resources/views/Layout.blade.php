@@ -78,12 +78,9 @@
       @yield('content')
 
       <footer class="container-fluid py-5">
+
       <div class="row">
-        <div class="col-12 col-md ml-5">
-          <p class="d-block mb-3 {{-- text-muted --}}">Hecho con <i class="fas fa-heart"></i> & <i class="fas fa-coffee"></i>  por Desarrolladores Web <i class="fab fa-whatsapp"></i></p>
-          <small class="d-block mb-3 {{-- text-muted --}}">&copy; 2017-2018</small>
-        </div>
-        <div class="col-6 col-md">
+        <div class="col-md-4">
           <h5>Siguenos en nuestras redes sociales</h5>
           <ul class="list-unstyled" >
             <li class="w-decoration"><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
@@ -92,7 +89,25 @@
 
           </ul>
         </div>
+        <div class="col-md-4">
+          <ul class="list-unstyled">
+            <li>inicio</li>
+            <li>nosotros</li>
+            <li>directorio</li>
+            <li>contacto</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+        <p>trabaja con nosotros</p>
+        </div>
 
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-12">
+           <p class="d-block mb-3 {{-- text-muted --}}">Hecho por Miguel Bastidas Web </p>
+          <small class="d-block mb-3 {{-- text-muted --}}">&copy; 2017-2018</small>
+        </div>
       </div>
     </footer>
 
